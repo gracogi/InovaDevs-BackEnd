@@ -1,9 +1,9 @@
 <?php
 
-    $host = 'localhost'; 
-    $dbname = 'inovadevs'; 
-    $user = 'guilherme'; 
-    $password = 'goncaGuih22'; 
+    $host = 'ep-old-block-a4e2qg01-pooler.us-east-1.aws.neon.tech'; 
+    $dbname = 'verceldb'; 
+    $user = 'default'; 
+    $password = 'jW0EBVo9ayuh'; 
     try {
         $pdo = new PDO("pgsql:host=$host;port=5432;dbname=$dbname",$user,$password,[PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 

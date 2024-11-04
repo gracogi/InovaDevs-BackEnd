@@ -1,7 +1,7 @@
 <?php
 
     $host = 'ep-old-block-a4e2qg01-pooler.us-east-1.aws.neon.tech'; 
-    $dbname = 'verceldb'; 
+    $dbname = '@vercel/postgres'; 
     $user = 'default'; 
     $password = 'jW0EBVo9ayuh'; 
     try {

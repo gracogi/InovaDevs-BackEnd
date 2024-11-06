@@ -1,10 +1,10 @@
 <?php
 
     class Database {
-        private $host = 'ep-old-block-a4e2qg01-pooler.us-east-1.aws.neon.tech';
-        private $dbname = 'verceldb';
-        private $user = 'default';
-        private $password = 'jW0EBVo9ayuh';
+        private $host = 'localhost';
+        private $dbname = 'inovadevs';
+        private $user = 'guilherme';
+        private $password = 'goncaGuih22';
         public $conn;
 
         public function getConnection() {

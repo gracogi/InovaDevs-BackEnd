@@ -105,17 +105,15 @@
     
     // Como o nome sugere, o método DELETE, deleta um usuário (precisamos passar um ID, não há como deletar todos)
     elseif ($_SERVER['REQUEST_METHOD'] == 'DELETE') {
-        $userId = isset($_GET['UserId']) ? $_GET['UserId'] : null;
+        parse_str(file_get_contents("php://input"), $input); 
+        $userId = $input['UserId'];
+
         $userDAO = new UserDAO($conn);
 
-        if ($userId) {
-            if ($userDAO->delete($userId)) {
-                echo json_encode(["message" => "Usuário deletado com sucesso!"]);
-            } else {
-                echo json_encode(["message" => "Erro ao deletar usuário."]);
-            }
+        if ($userDAO->delete($userId)) {
+            echo json_encode(["message" => "Usuário deletado com sucesso!"]);
         } else {
-            echo json_encode(["message" => "ID do usuário não fornecido."]);
+            echo json_encode(["message" => "Erro ao deletar usuário."]);
         }
     }
 ?>

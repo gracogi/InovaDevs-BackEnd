@@ -1,10 +1,10 @@
 <?php
 
     class Database {
-        private $host = 'localhost';
-        private $dbname = 'inovadevs';
+        private $host = 'dpg-cslvm98gph6c73aanj0g-a.oregon-postgres.render.com';
+        private $dbname = 'inovadevs_db';
         private $user = 'guilherme';
-        private $password = 'goncaGuih22';
+        private $password = 'QZ1KgXDFpoBiECN3TzNljHFhEB8wVtwR';
         public $conn;
 
         public function getConnection() {

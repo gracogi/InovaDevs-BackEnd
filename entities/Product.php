@@ -6,7 +6,7 @@
         private $name;
         private $description;
         private $price;
-        private $stock;
+        private $imageUrl;
 
         public function getProductId() {
             return $this->productId;
@@ -40,12 +40,12 @@
             $this->price = $price;
         }
 
-        public function getStock() {
-            return $this->stock;
+        public function getImageUrl() {
+            return $this->imageUrl;
         }
 
-        public function setStock($stock) {
-            $this->stock = $stock;
+        public function setImageUrl($imageUrl) {
+            $this->imageUrl = $imageUrl;
         }
     }
 ?>

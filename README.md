@@ -6,7 +6,8 @@
 
 ## 🛠️ Construído com
 
-(No final, adicionaremos todas as ferramentas que utilizamos para o desenvolvimento.)
+![image](https://github.com/user-attachments/assets/fea11cb5-19bc-409e-b552-98c0d7605a1d)
+![image](https://github.com/user-attachments/assets/81058cdd-2308-4479-8bf0-33a5cbdcbbe7)
 
 ## ✒️ Autores
 
@@ -16,5 +17,4 @@
 * **Matheus dos Santos** - *kyureP*
 * **Guilherme Gonçalves** - *guihGoncalves*
 
-## 🔎 Passo-a-passo
 
